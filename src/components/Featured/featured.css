@@ -3,7 +3,7 @@
     max-width: 1024px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     z-index: 1;
 }
@@ -13,17 +13,18 @@
     color: white;
     border-radius: 10px;
     overflow: hidden;
-    height: 250px;
+    /* height: 250px; */
+    flex: 1;
 }
 
 .featuredImg {
-    height: 100%;
-    width: 300px;
+    width: 100%;
+    height: 225px;
     object-fit: cover;
 }
 
 .featuredTitles {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 20px;
 }
