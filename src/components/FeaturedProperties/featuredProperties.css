@@ -9,12 +9,36 @@
 
 .fpItem {
     flex: 1;
-    /* width: 200px;
-    height: 150px; */
     gap: 10px;
-    object-fit: cover;
+    flex-direction: column;
 }
 
 .fpImg {
     width: 100%;
+    object-fit: cover;
+}
+
+.fpName {
+    font-weight: bold;
+}
+
+.fpCity {
+    font-weight: 300;
+}
+
+.fpPrice {
+    font-weight: 500;
+}
+
+.fpRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fpRating>span {
+    font-size: 14px;
 }
