@@ -1,0 +1,119 @@
+.searchItem {
+    height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.siImage {
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.itemDescription {
+    display: flex;
+    flex: 3;
+    /* justify-content: space-between; */
+}
+
+.itemLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemTitle {
+    color: rgb(98, 6, 235);
+    text-transform: capitalize;
+}
+
+.itemDistance {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.itemOffer {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.itemFeature {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.itemSize {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.itemCancellation {
+    color: greenyellow;
+    font-weight: bolder;
+}
+
+.itemText {
+    font-size: 14px;
+    font-weight: light;
+    color: green;
+}
+
+.itemRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grade {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rate {
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+.itemPrice {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.itemPriceInc {
+    color: lightgray;
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: max-content;
+}
+
+.seeAvail {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgba(11, 11, 180, 0.73);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
